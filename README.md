@@ -14,6 +14,10 @@ You can try the app live by visiting the deployed link:
 
 [Customer Churn Prediction App](https://kayfa-customer-churn-2025.streamlit.app/)
 
+
+[Customer Churn Prediction GITHUB](https://github.com/SaraDiab/kayfa-customer-churn)
+
+
 ## Project Overview
 
 The project leverages a dataset that contains customer information such as age, account length, services subscribed to, and other features, which are then used to predict the likelihood of customer churn. The app provides a clean and simple interface to input data and receive predictions.
