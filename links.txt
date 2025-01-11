@@ -1,0 +1,9 @@
+[Customer Churn Prediction App]
+(https://kayfa-customer-churn-2025.streamlit.app/)
+
+
+[Customer Churn Prediction GITHUB]
+(https://github.com/SaraDiab/kayfa-customer-churn)
+
+[Customer Churn Prediction kaggle]
+(https://www.kaggle.com/code/saraemad/kayfa-customer-churn-11-10-2025)

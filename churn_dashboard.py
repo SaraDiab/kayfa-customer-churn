@@ -1,12 +1,12 @@
 import pandas as pd
 import streamlit as st
 
-from about_tab import AboutTab
 from analysis_tab import AnalysisTab
 from classifier_tab import ClassifierTab
 from data_tab import DataTab
 from metrics import MetricsDisplay
 from sidebar import SideBar
+from about_tab import AboutTab
 
 
 class ChurnDashboard:

@@ -1,12 +1,14 @@
 import numpy as np
 import streamlit as st
+import joblib
 
 
 class ClassifierTab:
+    def __init__(self):
+        st.title("Manual Data Entry for Classification")
+
     @staticmethod
     def show():
-        # Page Title
-        st.title("Manual Data Entry for Classification")
 
         # Create two columns
         col1, col2 = st.columns(2)
@@ -46,9 +48,10 @@ class ClassifierTab:
                 estimated_salary
             ]])
 
-            # is_exit = model.predict(input_data)
-            is_exit = 0
+            model = joblib.load('customer_churn_classification_model.p')
+            is_exit = model.predict(input_data)
 
             # Display the result
-            st.metric("Classification Result", is_exit)
+            st.success("Classification Result: {}".format(is_exit), icon="✅")
+
 
